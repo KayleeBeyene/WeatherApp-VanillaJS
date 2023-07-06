@@ -108,6 +108,18 @@ li {
 .app-info .description {
   font-size: 20px;
   text-align: center;
+  margin-top: 0.25em;
+}
+
+.extra-info .temperature-details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.extra-info .temperature-details li {
+  margin: 0.25em;
 }
 
 @keyframes rotate {
