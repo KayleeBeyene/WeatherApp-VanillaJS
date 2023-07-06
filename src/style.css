@@ -41,6 +41,11 @@ li {
   padding: 0;
 }
 
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .weather-app-container {
   background-color: var(--white);
   border-radius: 15px;
@@ -48,8 +53,6 @@ li {
   display: flex;
   justify-content: center;
   padding: 20px 30px;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 .img-container {
