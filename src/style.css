@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+:root {
+  --daytime-blue: #3375f0;
+  --daytime-warning: #e5535e;
+  --nighttime-purple: #1e4885;
+  --nightime-pink: #b72ef6;
+  --rain-blue: #061980;
+  --rain-water: #3478f5;
+  --green: #74deb5;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
