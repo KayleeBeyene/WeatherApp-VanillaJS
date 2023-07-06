@@ -29,6 +29,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -57,7 +61,11 @@ li {
 
 .img-container {
   position: relative;
-  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .img-container img {
@@ -74,6 +82,32 @@ li {
 
 .weather-app-container.play .img-container img {
   animation-play-state: running;
+}
+
+.weather-temperature {
+  margin-left: 40px;
+}
+
+.weather-temperature .temp {
+  font-size: 64px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.app-info .date {
+  font-size: 16px;
+  text-align: center;
+}
+
+.app-info .description {
+  font-size: 20px;
+  text-align: center;
 }
 
 @keyframes rotate {
